@@ -21,5 +21,4 @@ Elements of CAPPA
 - Program 1: Python program that listens for button 1 press, which initiates OMX Player and plays the exercise file
 - Program 2: Python program that listens for button 2 press, which initiates exercise file parse/write/post to web
 - Program 3: Python program that parses XML exercise file, captures key information, and posts an HMTL file to the web
-- 
 
