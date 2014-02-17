@@ -5,7 +5,7 @@ Chaise Active Pour Personnes Agées
 
 This is a science project for Thierry Jones, student in Ottawa, Canada. The concept is as follows:
 
-1) Senior person sits on chair
+1) Senior person sits on chair<br>
 2) They press button 1 to activate an exercise video (which is adapted to them, chair exercise video)
 3) Once complete, they press a second button which activates the infromation download from a Heart Reate Monitor and publishes the exercise information to the web
 
