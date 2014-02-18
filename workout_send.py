@@ -17,7 +17,7 @@ print ("<h1>La frequence cardiaque maximale: "+MaxHRval+"</h1><br>\n")
 
 #Write out the results to an HTML file
 text_file = open("res_p2.html", "w")
-text_file.write("<h1>Votre execise a commencer a: "+StartTime+"</h1><br>\n"+
+text_file.write("<h1>Votre exercise a commencer a: "+StartTime+"</h1><br>\n"+
                 "<h1>Felicitation, la duree de votre session d'exercise etait: "+TotTime+ " secondes!"+"</h1><br>\n"+
                 "<h1>Frequence cardiaque moyenne: "+AvgHRval+"</h1><br>\n"+
                 "<h1>La frequence cardiaque maximale: "+MaxHRval+"</h1><br>\n")
