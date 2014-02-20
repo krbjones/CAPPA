@@ -1,1 +1,17 @@
-Need to get the code from RPi
+# PROGRAMME POUR BOUTTON NO. 1 - FAIT JOUER LA VIDÉO
+
+import RPi.GPIO as gpio
+                          
+gpio.setmode(gpio.BCM)
+gpio.setup(17, gpio.IN)
+
+                                                                                                                                                                                                                                                                                     
+while True:
+	inputval = gpio.input(17)
+        if inputval == False:
+		movie_path = '/home/pi/CAPA/Seniors.mp4'
+		from subprocess import Popen
+		omxp = Popen(['omxplayer', '-o', 'local', movie_path])
+		while inputval == False:	
+                       	inputval = gpio.input(17)
+
