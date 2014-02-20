@@ -1,4 +1,4 @@
-# FTP results to the Webserver
+# SUPPRIME LE FICHIER SUR LE SERVEUR
 import ftplib
 from ftplib import FTP 
 
