@@ -42,7 +42,7 @@ File2Send = "resultats.html"
 Output_Directory = "/public_html/cappa" 
 
 ftp = FTP("ftp.ekoot.ca")
-ftp.login("krbjones", "0Kl@h@m@") 
+ftp.login("", "") 
 file = open(File2Send, "rb") 
 ftp.cwd(Output_Directory)
 ftp.storbinary('STOR ' + File2Send, file) 
