@@ -41,7 +41,7 @@ from ftplib import FTP
 File2Send = "resultats.html"
 Output_Directory = "/public_html/cappa" 
 
-ftp = FTP("ftp.ekoot.ca")
+ftp = FTP("hostname")
 ftp.login("username", "password") 
 file = open(File2Send, "rb") 
 ftp.cwd(Output_Directory)
